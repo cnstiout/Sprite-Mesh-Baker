@@ -1,0 +1,46 @@
+[gd_scene load_steps=6 format=4 uid="uid://cgrt7wn0h3rxa"]
+
+[ext_resource type="Texture2D" uid="uid://lsg4uwatrnui" path="res://assets/sprites/ships/ship-base-half.png" id="1_bqaiq"]
+[ext_resource type="Texture2D" uid="uid://cdyp4pd6i8gai" path="res://assets/sprites/ships/ship_shifter_half.png" id="2_lodv8"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bqaiq"]
+transparency = 4
+cull_mode = 2
+shading_mode = 0
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_bqaiq")
+texture_filter = 0
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lodv8"]
+transparency = 4
+cull_mode = 2
+shading_mode = 0
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("2_lodv8")
+texture_filter = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_6on2h"]
+_surfaces = [{
+"aabb": AABB(-0.3077008, -0.04141105, -0.32, 0.6182444, 0.0828221, 0.64),
+"attribute_data": PackedByteArray("/////wAAAAAAAAAA/////wAAgD8AAAAA/////wAAgD8AAIA//////wAAgD8AAIA//////wAAAAAAAIA//////wAAAAAAAAAA/////wAAgD8AAAAA/////wAAAAAAAAAA/////wAAAAAAAIA//////wAAAAAAAIA//////wAAgD8AAIA//////wAAgD8AAAAA/////wAAAAAAAAAA/////wAAgD8AAAAA/////wAAgD8AAIA//////wAAgD8AAIA//////wAAAAAAAIA//////wAAAAAAAAAA/////wAAgD8AAAAA/////wAAAAAAAAAA/////wAAAAAAAIA//////wAAAAAAAIA//////wAAgD8AAIA//////wAAgD8AAAAA"),
+"format": 34359738399,
+"material": SubResource("StandardMaterial3D_bqaiq"),
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("ALW9OqGeKT0K16O+kv+ePqGeKb0K16O+kv+ePqGeKb0K16M+kv+ePqGeKb0K16M+ALW9OqGeKT0K16M+ALW9OqGeKT0K16O+9oqdvqKeKb0K16O+gOi2OqKeKT0K16O+gOi2OqKeKT0K16M+gOi2OqKeKT0K16M+9oqdvqKeKb0K16M+9oqdvqKeKb0K16O+gLS9OqKeKb0K16O+kv+ePqKeKT0K16O+kv+ePqKeKT0K16M+kv+ePqKeKT0K16M+gLS9OqKeKb0K16M+gLS9OqKeKb0K16O+9YqdvqGeKT0K16O+AOi2OqGeKb0K16O+AOi2OqGeKb0K16M+AOi2OqGeKb0K16M+9YqdvqGeKT0K16M+9YqdvqGeKT0K16O+DJvy5HUgzMwMm/LkdSDMzAyb8uR1IMzMDJvy5HUgzMwMm/LkdSDMzAyb8uR1IMzM8mTy5HUgMrPyZPLkdSAys/Jk8uR1IDKz8mTy5HUgMrPyZPLkdSAys/Jk8uR1IDKz8mTy5HUgMrPyZPLkdSAys/Jk8uR1IDKz8mTy5HUgMrPyZPLkdSAys/Jk8uR1IDKzDJvy5HUgzMwMm/LkdSDMzAyb8uR1IMzMDJvy5HUgzMwMm/LkdSDMzAyb8uR1IMzM")
+}, {
+"aabb": AABB(-0.2841578, -0.18124473, -0.39006972, 0.5687219, 0.32024473, 0.7981773),
+"attribute_data": PackedByteArray("/////wAAAAAAAAAA/////wAAgD8AAAAA/////wAAgD8AAIA//////wAAgD8AAIA//////wAAAAAAAIA//////wAAAAAAAAAA/////wAAAAAAAAAA/////wAAgD8AAAAA/////wAAgD8AAIA//////wAAgD8AAIA//////wAAAAAAAIA//////wAAAAAAAAAA/////wAAAAAAAAAA/////wAAgD8AAAAA/////wAAgD8AAIA//////wAAgD8AAIA//////wAAAAAAAIA//////wAAAAAAAAAA/////wAAAAAAAAAA/////wAAgD8AAAAA/////wAAgD8AAIA//////wAAgD8AAIA//////wAAAAAAAIA//////wAAAAAAAAAA/////wAAAAAAAAAA/////wAAgD8AAAAA/////wAAgD8AAIA//////wAAgD8AAIA//////wAAAAAAAIA//////wAAAAAAAAAA/////wAAAAAAAAAA/////wAAgD8AAAAA/////wAAgD8AAIA//////wAAgD8AAIA//////wAAAAAAAIA//////wAAAAAAAAAA"),
+"format": 34359738399,
+"material": SubResource("StandardMaterial3D_lodv8"),
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 36,
+"vertex_data": PackedByteArray("7i5cvTiYOb44t8e+8i5cvdwVDj44t8e+8i5cvdwVDj647X8+8i5cvdwVDj647X8+7i5cvTiYOb647X8+7i5cvTiYOb44t8e+HS9dPRBYOb4Urse+GS9dPQRWDj4Urse+GS9dPQRWDj4AAIA+GS9dPQRWDj4AAIA+HS9dPRBYOb4AAIA+HS9dPRBYOb4Urse+In2RvrUbpz00dW2+QFnmu2GSoL00dW2+QFnmu2GSoL1689A+QFnmu2GSoL1689A+In2RvrUbpz1689A+In2RvrUbpz00dW2+In2RvmCSoL00dW2+QFnmu7Qbpz00dW2+QFnmu7Qbpz1689A+QFnmu7Qbpz1689A+In2RvmCSoL1689A+In2RvmCSoL00dW2+YbKRPmOSoL00dW2+QKnzO7cbpz00dW2+QKnzO7cbpz1689A+QKnzO7cbpz1689A+YbKRPmOSoL1689A+YbKRPmOSoL00dW2+YrKRPrIbpz00dW2+AKnzO16SoL00dW2+AKnzO16SoL1689A+AKnzO16SoL1689A+YrKRPrIbpz1689A+YrKRPrIbpz00dW2+AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//78AAP9//3//vwAA/3//f/+/2a4l0QE9VdPZriXRAT1V09muJdEBPVXT2a4l0QE9VdPZriXRAT1V09muJdEBPVXTJVEl0QE9qKwlUSXRAT2orCVRJdEBPaisJVEl0QE9qKwlUSXRAT2orCVRJdEBPaisJVHZLgE9VdMlUdkuAT1V0yVR2S4BPVXTJVHZLgE9VdMlUdkuAT1V0yVR2S4BPVXT2a7ZLgE9qKzZrtkuAT2orNmu2S4BPais2a7ZLgE9qKzZrtkuAT2orNmu2S4BPais")
+}]
+
+[node name="SpriteShip" type="Node3D"]
+
+[node name="SpriteShip_baked" type="MeshInstance3D" parent="."]
+mesh = SubResource("ArrayMesh_6on2h")
